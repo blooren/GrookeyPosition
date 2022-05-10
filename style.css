@@ -9,6 +9,7 @@ main.container{
     background-image: url(https://i.imgur.com/tHyC9Cf.png);
     background-size: cover;
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 section.box{
