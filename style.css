@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+main.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://i.imgur.com/tHyC9Cf.png);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+section.box{
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    width: 18.5rem;
+    height: 17rem;
+    top: 35%;
+    background-color: rgba(0, 255, 94, 0.186);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(155, 152, 152, 0.755);
+    transition: top 0.10s;
+    color: white;
+}
+section.box:hover{
+    transition: 0.10s ease-in-out;
+    top:20rem;
+}
+main img{
+    width: 300px;
+    position: absolute;
+    bottom: 16rem;
+    left: 4rem;
+    z-index: 0;
+}
+
+.box-title{
+    position: absolute;
+    top: -3rem;
+    font-size: 2.6rem;
+    color: #f7ec6b;
+}
+.box-bio{
+    padding: 20px;
+    font-size: 1.3rem;
+}
